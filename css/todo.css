@@ -1,0 +1,32 @@
+#todo-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#todo-title{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+}
+#todo-input{
+    padding: 10px 10px;
+    background-color: rgba(0,0,0,0);
+}
+#todo-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#todo-list span{
+    color:rgba(255, 255, 255, 0.8);
+}
+
+#todo-list button{
+    position: relative;
+    bottom: -5px;
+}
